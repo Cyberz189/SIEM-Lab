@@ -34,8 +34,12 @@ Adjusting the fields value allows me to get more in depth with my searches. In t
 ![IMG_8607](https://github.com/Cyberz189/SIEM-Lab/assets/163569052/0aaef9c8-b344-49f9-bf48-c4645944f68f)
 
 
-
 By selecting "Attempted Administrator Privilege Gain" i was able to get more details of the attacker and the methods and techniques used to try and get administrative privileges. Splunk was also able to identify the CVE (Common Vulnerabilities and Exposures) used in the attack.
+
+![IMG_8608](https://github.com/Cyberz189/SIEM-Lab/assets/163569052/a60a0b08-bb79-4a63-8664-76b012ae15dd)
+
+By searching up the identified CVE i'm able to get a detailed description of what the attacker had in mind, as well, as the vulnerability used to get adminstravtive privilages. Knowing this information is crucial in trying to mitigate any potential exploit going forward.
+
 
 
 
