@@ -41,7 +41,7 @@ Selecting "Attempted Administrator Privilege Gain" reveals further details of th
 Searching for the identified CVE provides a detailed description of the attacker's intent and the vulnerability exploited for administrative privileges. Understanding this information is crucial for mitigating potential exploits in the future.
 
 
-Source:[(https://nvd.nist.gov/vuln/detail/cve-2014-6271)](https://nvd.nist.gov/vuln/detail/cve-2014-6271)
+Source:(https://nvd.nist.gov/vuln/detail/cve-2014-6271)
 
 ![IMG_8609](https://github.com/Cyberz189/SIEM-Lab/assets/163569052/b28405e6-f138-4805-9b3f-2dc1b7e9c656)
 
