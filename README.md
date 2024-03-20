@@ -22,26 +22,27 @@ Employ a Security Information and Event Management (SIEM) system to enhance thre
 
 ![IMG_8604](https://github.com/Cyberz189/SIEM-Lab/assets/163569052/52137f12-a762-4f00-93ec-49d0551fee32)
 
-Using Splunk i'm able to breakdown data and search individual datasets to track down information i am looking for. In this case i am looking for data that relates to an unknown attacker IP address "40.80.148.42" which is being used to attack a website called "iamnotbatman.com" who has the IP address of "192.168.250.70". Splunk is able to show all the events associated with the attacker IP and gives all the details of the source ip, destination ip, ports, and the time of the event. The search bar on top of the screen and fields on the left side of the screen, allow me to manage how i would like to identify IOCs.
+Using Splunk, I can dissect data and search individual datasets to locate specific information. In this instance, I'm investigating data related to an unknown attacker's IP address "40.80.148.42," targeting a website named "iamnotbatman.com" with the IP address "192.168.250.70." Splunk displays all events associated with the attacker IP, providing details such as source IP, destination IP, ports, and timestamps. The search bar and fields on the interface allow me to customize my search for indicators of compromise (IOCs).
 
 ![IMG_8605](https://github.com/Cyberz189/SIEM-Lab/assets/163569052/69f212e5-93b9-4260-ac0d-b2af55747d44)
 
-Adjusting the fields value allows me to get more in depth with my searches. In this case, i used fields value " alert.category" to show all the events that registered an event and was categorized as a potential attack.
+Adjusting field values enables me to conduct more detailed searches. For instance, using the field value "alert.category" shows events categorized as potential attacks.
 
 ![IMG_8606](https://github.com/Cyberz189/SIEM-Lab/assets/163569052/9ac614f5-b579-4688-994c-b789047b5a5b)
 
 ![IMG_8607](https://github.com/Cyberz189/SIEM-Lab/assets/163569052/0aaef9c8-b344-49f9-bf48-c4645944f68f)
 
 
-By selecting "Attempted Administrator Privilege Gain" i was able to get more details of the attacker and the methods and techniques used to try and get administrative privileges. Splunk was also able to identify the CVE (Common Vulnerabilities and Exposures) used in the attack.
+Selecting "Attempted Administrator Privilege Gain" reveals further details of the attacker's methods and techniques used in the attempted privilege escalation. Splunk also identifies the CVE (Common Vulnerabilities and Exposures) associated with the attack.
+
 
 ![IMG_8608](https://github.com/Cyberz189/SIEM-Lab/assets/163569052/a60a0b08-bb79-4a63-8664-76b012ae15dd)
 
-By searching up the identified CVE i'm able to get a detailed description of what the attacker had in mind, as well, as the vulnerability used to get adminstravtive privilages. Knowing this information is crucial in trying to mitigate any potential exploit going forward.
+Searching for the identified CVE provides a detailed description of the attacker's intent and the vulnerability exploited for administrative privileges. Understanding this information is crucial for mitigating potential exploits in the future.
 
-Source:(https://nvd.nist.gov/vuln/detail/cve-2014-6271)
+
+Source:[(https://nvd.nist.gov/vuln/detail/cve-2014-6271)](https://nvd.nist.gov/vuln/detail/cve-2014-6271)
 
 ![IMG_8609](https://github.com/Cyberz189/SIEM-Lab/assets/163569052/b28405e6-f138-4805-9b3f-2dc1b7e9c656)
 
-Going back to Splunk and looking at the fields, by clicking on URL, we're able to identify the numerous CGI values that were potentially exploitable. 
-
+Returning to Splunk and examining the fields, clicking on "URL" allows identification of numerous potentially exploitable CGI values.
