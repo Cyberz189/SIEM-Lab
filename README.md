@@ -40,8 +40,7 @@ By selecting "Attempted Administrator Privilege Gain" i was able to get more det
 
 By searching up the identified CVE i'm able to get a detailed description of what the attacker had in mind, as well, as the vulnerability used to get adminstravtive privilages. Knowing this information is crucial in trying to mitigate any potential exploit going forward.
 
-
-
+Source:(https://nvd.nist.gov/vuln/detail/cve-2014-6271)
 
 Every screenshot should have some text explaining what the screenshot is about.
 
