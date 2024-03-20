@@ -1,7 +1,7 @@
 # SIEM-Lab
 
 ## Objective
-[Brief Objective]
+
 
 Employ a Security Information and Event Management (SIEM) system to enhance threat detection, incident response, and overall cybersecurity posture by aggregating, correlating, and analyzing security data from diverse sources to proactively identify and mitigate security threats and breaches.
 
@@ -14,7 +14,6 @@ Employ a Security Information and Event Management (SIEM) system to enhance thre
 - Development of critical thinking and problem-solving skills in cybersecurity.
 
 ### Tools Used
-[Bullet Points]
 
 - Security Information and Event Management (SIEM) system for log ingestion and analysis.
 - Splunk
@@ -42,8 +41,7 @@ By searching up the identified CVE i'm able to get a detailed description of wha
 
 Source:(https://nvd.nist.gov/vuln/detail/cve-2014-6271)
 
-Every screenshot should have some text explaining what the screenshot is about.
+![IMG_8609](https://github.com/Cyberz189/SIEM-Lab/assets/163569052/b28405e6-f138-4805-9b3f-2dc1b7e9c656)
 
-Example below.
+Going back to Splunk and looking at the fields, by clicking on URL, we're able to identify the numerous CGI values that were potentially exploitable. 
 
-*Ref 1: Network Diagram*
