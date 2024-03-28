@@ -46,3 +46,6 @@ Source:(https://nvd.nist.gov/vuln/detail/cve-2014-6271)
 ![IMG_8609](https://github.com/Cyberz189/SIEM-Lab/assets/163569052/b28405e6-f138-4805-9b3f-2dc1b7e9c656)
 
 Returning to Splunk and examining the fields, clicking on "URL" allows identification of numerous potentially exploitable CGI values.
+
+
+Using Splunk as a SIEM offers organizations a powerful platform for comprehensive security information and event management. It enables real-time monitoring, analysis, and correlation of security events across the entire IT environment. With Splunk, users can detect and respond to threats quickly, thanks to its advanced analytics, machine learning capabilities, and customizable dashboards. It facilitates compliance management, incident investigation, and threat hunting, empowering security teams to strengthen their defenses and safeguard their organization's data and assets effectively.
