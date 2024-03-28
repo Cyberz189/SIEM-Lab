@@ -22,24 +22,23 @@ Employ a Security Information and Event Management (SIEM) system to enhance thre
 
 ![IMG_8604](https://github.com/Cyberz189/SIEM-Lab/assets/163569052/52137f12-a762-4f00-93ec-49d0551fee32)
 
-Using Splunk, I can dissect data and search individual datasets to locate specific information. In this instance, I'm investigating data related to an unknown attacker's IP address "40.80.148.42," targeting a website named "iamnotbatman.com" with the IP address "192.168.250.70." Splunk displays all events associated with the attacker IP, providing details such as source IP, destination IP, ports, and timestamps. The search bar and fields on the interface allow me to customize my search for indicators of compromise (IOCs).
+Utilizing Splunk, I can analyze data and search through individual datasets to pinpoint specific information. Currently, I'm examining data concerning an unidentified attacker's IP address, "40.80.148.42," targeting a website named "iamnotbatman.com" with the IP address "192.168.250.70." Splunk presents all events linked to the attacker's IP, offering comprehensive details including source IP, destination IP, ports, and timestamps. Through the search bar and interface fields, I can tailor my search to identify indicators of compromise (IOCs).
 
 ![IMG_8605](https://github.com/Cyberz189/SIEM-Lab/assets/163569052/69f212e5-93b9-4260-ac0d-b2af55747d44)
 
-Adjusting field values enables me to conduct more detailed searches. For instance, using the field value "alert.category" shows events categorized as potential attacks.
+Modifying field values allows for more nuanced searches. For example, specifying the field value "alert.category" filters events classified as potential attacks.
 
 ![IMG_8606](https://github.com/Cyberz189/SIEM-Lab/assets/163569052/9ac614f5-b579-4688-994c-b789047b5a5b)
 
 ![IMG_8607](https://github.com/Cyberz189/SIEM-Lab/assets/163569052/0aaef9c8-b344-49f9-bf48-c4645944f68f)
 
 
-Selecting "Attempted Administrator Privilege Gain" reveals further details of the attacker's methods and techniques used in the attempted privilege escalation. Splunk also identifies the CVE (Common Vulnerabilities and Exposures) associated with the attack.
+Choosing "Attempted Administrator Privilege Gain" unveils additional details regarding the attacker's methods and techniques employed in the attempted privilege escalation. Splunk also pinpoints the CVE (Common Vulnerabilities and Exposures) linked to the attack.
 
 
 ![IMG_8608](https://github.com/Cyberz189/SIEM-Lab/assets/163569052/a60a0b08-bb79-4a63-8664-76b012ae15dd)
 
-Searching for the identified CVE provides a detailed description of the attacker's intent and the vulnerability exploited for administrative privileges. Understanding this information is crucial for mitigating potential exploits in the future.
-
+Looking up the identified CVE offers a comprehensive description of the attacker's intentions and the vulnerability exploited to gain administrative privileges. This insight is essential for mitigating potential exploits in the future.
 
 Source:(https://nvd.nist.gov/vuln/detail/cve-2014-6271)
 
